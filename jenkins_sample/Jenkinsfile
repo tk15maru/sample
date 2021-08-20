@@ -1,7 +1,11 @@
 node('master') {
-  stage 'メッセージの表示!!' 
+  stage 'メッセージの表示' 
   sh 'echo Hello Pipeline.' 
   
+  stage 'ディレクトリの移動'
+  sh 'cd /home/jenkins'
+
   stage 'ディレクトリの表示'
   sh 'pwd'
+
 }
