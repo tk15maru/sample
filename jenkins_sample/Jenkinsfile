@@ -3,7 +3,7 @@ node('master') {
   sh 'echo Hello Pipeline.' 
   
   stage 'ディレクトリの移動'
-  sh 'cd /home/jenkins'
+  sh 'cd /var/jenkins_home/workspace/'
 
   stage 'ディレクトリの表示'
   sh 'pwd'
