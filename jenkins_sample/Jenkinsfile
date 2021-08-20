@@ -3,5 +3,5 @@ node('master') {
   sh 'echo Hello Pipeline.' 
   
   stage 'ディレクトリの表示'
-  sh 'ls -lt'
+  sh 'pwd'
 }
