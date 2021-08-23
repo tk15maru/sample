@@ -5,7 +5,7 @@ node('master') {
   stage 'ディレクトリの移動'
   sh 'cd /var/jenkins_home/workspace/'
 
-  stage 'ディレクトリの表示!!'
+  stage 'ディレクトリの表示!!!'
   sh 'pwd'
 
 }
